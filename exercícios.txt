@@ -1,0 +1,8 @@
+Faça as seguintes buscas no sistema de Estacionamento usando SELECT-FROM-WHERE:
+
+1) Informar todos os nomes e CNH correspondentes a clientes que estacionaram pelo menos uma moto (tipo de automovel 1).
+2) Informar o valor e a data de todos os pagamentos efetuados por clientes que deram calote no estacionamento (o
+atributo nao_pagou é verdadeiro quando igual a 1 e falso quando igual a 0).
+3) Informar o valor dos pagamentos registrados entre 11h e 11:59.
+4) Informar o valor e o horário de todo registro de pagamento que foi efetuado no dia primeiro de 2023 (independente de mês).
+5) Informar todos os nomes das pessoas que tiveram que pagar um valor superior a 500 no estacionamento.

@@ -1,6 +1,0 @@
-1) Apresentar todos os nomes de clientes que deram calote no estacionamento (sairam sem pagar). [0,8]
-2) Apresentar todos os nomes de clientes que estacionaram pelo menos uma moto (tipo 1) no estacionamento. [0,8]
-3) Apresentar os nomes e CNH de clientes que estacionaram pelo menos um caminhão (tipo 2) no estacionamento. [0,8]
-4) Apresentar os nomes de todas as pessoas que estacionaram em 2022. [0,8]
-5) Apresentar os nomes de todas as pessoas que estacionaram ao menos um carro (tipo 0) e que registraram saída durante as 10h da manhã. [0,8]
-6*) Apresentar os nomes de todas as pessoas que estacionaram no mês de julho de 2023, mas deram calote e não pagaram. [0,8]
