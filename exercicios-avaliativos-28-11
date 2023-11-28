@@ -1,0 +1,8 @@
+1) Exibir os nomes e valores de todos os gastos entre os dias 3 e 27 de quaisquer meses e anos. [0,8]
+2) Exibir a descrição de cargo de cada funcionário cuja venda de alguma roupa foi maior que 150. [0,8]
+3) Exibir os clientes e o valor total (soma) das roupas que compraram na loja, agrupados por id_funcionário, ordenados pela soma,
+cujo valor seja no mínimo 700. [0,8]
+4) Buscar por nomes e datas de gastos que foram erroneamente colocados após o dia e horário atuais. Ex: compra no ano de 2025. [0,8]
+5) Exibir todos os gastos ordinários cujo valor extrapola a soma de todos os gastos mensais fixos. [0,8]
+Extra 1) Exibir a média de todos os gastos, inclusive os fixos. [0,5]
+Extra 2) Exibir o valor total das 3 primeiras despesas, incluindo os gastos fixos, separadamente. [0,5]
