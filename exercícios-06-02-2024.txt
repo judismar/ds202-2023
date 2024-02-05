@@ -1,0 +1,31 @@
+1) O que a busca abaixo exibe? Escreva em linguagem natural.
+
+select nomec, sum(valor)
+from cliente natural join roupa
+group by id_cliente
+order by sum(valor)
+
+2) Preencha os espaços em branco abaixo para obter uma busca que exibe o nome e valor de todos os gastos, fixos e ordinários, cujo valor está entre 100 e 300.
+select nomeg, valorg
+from ____
+____ valorg >= 100 ___ valorg <= 300
+
+____
+
+select _____
+____ gastofixo
+where ____
+
+3) Escreva uma busca que exiba os nomes de todos os funcionários cujo salário é maior que 3000.
+
+4) Escreva uma busca que exiba os nomes de todos os funcionários cujo salário é menor que a média do salário de todo mundo da loja de roupas.
+
+5) O que a busca abaixo exibe? Escreva em linguagem natural.
+select nomeg
+from gasto as g1
+where nomeg not in (select nomeg
+                    from gasto as g2
+                    where g1.id_gasto = g2.id_gasto
+                      and nomeg like "%Noah%")
+
+6) Reescreva a busca do exercício 5 de maneira simplificada, sem sub-consulta.
