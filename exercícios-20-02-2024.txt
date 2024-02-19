@@ -26,7 +26,7 @@ from gasto as g1
 where nomeg not in (select nomeg
                     from gasto as g2
                     where g1.id_gasto = g2.id_gasto
-                      and nomeg like "%Noah%")
+                      and nomeg like "%asas%")
 
 8) Reescreva a busca do exercício 5 de maneira simplificada, sem sub-consulta.
 
