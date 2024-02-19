@@ -1,0 +1,33 @@
+1) Elabora um modelo ER para um sistema cujo objetivo é facilitar e apoiar os processos de negócio de um banco digital. É preciso ter no mínimo 4 entidades, 3 relacionamentos e cada entidade precisa ter no mínimo 3 atributos.
+
+    Para resolver os exercícios a seguir, considere os BDs Despesas e Loja de roupas.
+
+2) A busca a seguir exibe a soma de todos os gastos fixos do mês 2. Preencha as lacunas para finalizar a busca.
+SELECT sum(_____)
+_____ GastoFixo NATURAL JOIN Tem ___________ Despesa
+WHERE despesa.id = __
+
+3) Faça uma busca (na loja de roupas) que exiba o nome dos clientes que compraram roupas de valor maior que 500.
+
+4) Faça uma busca que exiba a média de salário de toda(o)s a(o)s funcionária(o)s da loja.
+
+5) Usando a connsulta do exercício 4 como subconsulta, escreva uma busca que exiba os nomes e as descrições de cargo de toda(o)s a(o)s funcionári(a)os cujo salário é maior que a média de todos os salários da loja de roupas.
+
+6) A busca a seguir deve agrupar todos os gastos de mesmo nome, somando seus valores, em ordem decrescente de soma. Preencha as lacunas.
+
+SELECT nomeg, sum(_____)
+FROM gasto
+GROUP BY _____
+______ sum(valorg) DESC
+
+7) O que a busca abaixo exibe? Descreva em linguagem natural.
+select nomeg
+from gasto as g1
+where nomeg not in (select nomeg
+                    from gasto as g2
+                    where g1.id_gasto = g2.id_gasto
+                      and nomeg like "%Noah%")
+
+8) Reescreva a busca do exercício 5 de maneira simplificada, sem sub-consulta.
+
+9) Exiba o nome/mês de todas as despesas cuja média de gastos não-fixos é maior que 200.
